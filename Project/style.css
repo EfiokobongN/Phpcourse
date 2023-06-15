@@ -42,12 +42,42 @@ footer p{
 h1{
     text-transform: uppercase;
     font-size: 50px;
+    color: #2835aa;
+}
+.reg{
+    font-size: 35px;
+}
+.text{
+    font-weight: 700;
 }
 p a{
-    color: #666;
+    color: #2d23b9;
+    text-transform: capitalize;
+    font-weight: 800;
 }
 div{
     width: 100%;
     margin: 0 auto;
    text-align: center;
+}
+input{
+    display: block;margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 10px #666;
+    width: 330px;
+    height: 45px;
+    background-color: #F2F2F2;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+button{
+    padding:14px 8rem;
+    background-color: #000000;
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.btn{
+    padding:14px 6.7rem;
 }
