@@ -1,0 +1,60 @@
+div{
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    font-size: 30px;
+    color: #e00c0c;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+p{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+form{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+input, textarea{
+    width: 300px;
+    height: 40px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 10px #757171;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+::placeholder{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #635959;
+}
+textarea{
+    height: 100px;
+}
+button{
+    padding: 20px 50px 20px 50px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bolder;
+    border: 1px solid #f2f2f2;
+}
+.thanks{
+    margin-top: 15rem;
+}
+.thanks h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ee0808;
+}
+.thanks p{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
